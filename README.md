@@ -73,7 +73,7 @@ Le script inclut un flag DEBUG pour activer/désactiver les messages de débogag
 	Exemple d'execution :
 
 	removeAllLikesDebugAdvanced(1, false);
-		-> Un cycle donc 18 publications supprimées, pas de mesage de déboguage sauf en cas d'arrêt du scipt.
+		-> Un cycle donc 18 publications supprimées, pas de mesage de déboguage sauf en cas d'arrêt du script.
 	removeAllLikesDebugAdvanced(10, true);
 		-> 10 cycles donc 180 publications supprimées, déboguage activé.
 
