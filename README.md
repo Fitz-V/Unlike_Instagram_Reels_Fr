@@ -2,7 +2,8 @@
 Un script JS pour enlever vos likes Instagram (réels, photos, vidéos), fonctionne uniquement sur la version française.
 
 # Description
-Ce script s'exécute directement dans la console de votre navigateur et permet de supprimer automatiquement tous vos likes Instagram. Il est spécialement conçu pour la version française d'Instagram et utilise l'interface "Votre activité" pour unlike en masse.
+Ce script s'exécute directement dans la console de votre navigateur et permet de supprimer automatiquement tous vos likes Instagram.
+Il est spécialement conçu pour la version française d'Instagram et utilise l'interface "Votre activité" pour unlike en masse.
 
 # Avertissement important
 **LISEZ CE QUI SUIT AVANT D'UTILISER CE SCRIPT** :
@@ -22,37 +23,48 @@ Ce script s'exécute directement dans la console de votre navigateur et permet d
 # Fonctionnalités
 
 - Unlike par lots de 18 publications
+  
 - Gestion des pauses entre chaque lot pour éviter la détection
+  
 - Refresh les publications lorsqu'elles ne s'affichent plus, en passant sur l'onglet "Commentaires" de "Votre activité" puis en revenant sur l'onglet des posts likés
+  
 - Déboguage dans la console
+  
 - Scroll automatique pendant la séléction
 
 # Prérequis
 
 - Navigateur web (Chrome, FireFox, Brave, ...), utilisez de préférence un ordinateur
+  
 - Compte Instagram **avec interface en Français**
+  
 - Être connecté à son compte
 
 # Utilisation
 
 **1 - Accédez à votre page d'activités Instagram**
+
 	- Connectez-vous à Instagram depuis votre ordinateur
 	- Dans le menu à gauche, appuyez sur le bouton menu ( 3 lignes horizontales)
 	- Sélectionnez le bouton "Votre activité"
 	- Vérifiez que vous êtes bien sur la section "J'aime"
 
 **2 - Ouvrez la console de votre navigateur**
+
 	- Windows / Linux : F12 ou CTRL+SHIFT+I
 	- Mac : Cmd+Option+I
 	- En haut de la fenêtre qui s'affiche, sélectionnez "Console"
 
 **3 - Copiez-collez le script**
+
 	- Copiez l'intégralité du script
 	- Collez-le dans la console
-		- En règle générale, votre navigateur vous demandera une confirmation pour pouvoir coller quelque-chose dans votre console. Assurez-vous de bien prendre en compte tout avertissement / dangers liés à cette opération.
+		- En règle générale, votre navigateur vous demandera une confirmation pour pouvoir coller quelque-chose dans votre console.
+		- Assurez-vous de bien prendre en compte tout avertissement / dangers liés à cette opération.
 	- Appuyez sur Entrée une fois le code collé
 
 **4 - Une fois le code lancé**
+
 	- Vérifiez qu'il se lance correctement grâce aux messages de déboguage
 	- Vous pouvez laisser la fenêtre ouverte en arrière-plan et vaquer à vos occupations
 	- Il est recommandé de vérifier de temps en temps la bonne exécution du script afin de le lancer à nouveau en cas d'arrêt
@@ -61,11 +73,13 @@ Ce script s'exécute directement dans la console de votre navigateur et permet d
 # Limitations et problèmes connus
 
 **Problèmes Techniques**
+
 	- Interface Instagram : Le script dépend de la structure HTML actuelle (01/2026) d'Instagram
 	- Traduction : Nécessite d'avoir l'interface en Français
 	- Performance : La vitesse de suppression ne peut pas être augmentée à moins de risquer un bloquage
 	- En cas de bloquage des suppressions : Il est recommandé d'attendre 24-48h avant de relancer
-	- Certaines publications likées ne sont pas supprimables et peuvent générer une erreur, ce bug ne provient pas du script mais d'Instagram et sa façon de gérer les publications dans leur base de données
+	- Certaines publications likées ne sont pas supprimables et peuvent générer une erreur.
+	  =>Ce bug ne provient pas du script mais d'Instagram et sa façon de gérer les publications dans leur base de données
 
 # CE PROJET EST FOURNIT A TITRE EDUCATIF, LES UTILISATEURS POTENTIELS ASSUMENT L'ENTIERE RESPONSABILITE DE SON UTILISATION !
 # L'UTILISATION DE CE SCRIPT NE SUIT PAS LES TOS D'INSTAGRAM, IL N'EST EN AUCUN CAS AFFILIE A META OU INSTAGRAM !
