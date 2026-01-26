@@ -1,4 +1,4 @@
-async function removeAllLikesDebugAdvanced(maxCycles = 10, DEBUG=false) {
+async function removeLikes(maxCycles = 10, DEBUG=false) {
 
   const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -94,7 +94,7 @@ async function removeAllLikesDebugAdvanced(maxCycles = 10, DEBUG=false) {
     btn.scrollIntoView({ block: "center" });
     btn.click();
 
-    if(DEBUG) log("💔 Confirmation 'Je n’aime plus' cliquée", "info");
+    if(DEBUG) log("🥀 Confirmation 'Je n’aime plus' cliquée", "info");
     return true;
   }
   
@@ -268,6 +268,6 @@ async function removeAllLikesDebugAdvanced(maxCycles = 10, DEBUG=false) {
 }
 
 // Modifier ici : 
-//maxcycle : nombre de répétitions ( 5 => On enlève 5*18 publications)
+//maxCycles : nombre de répétitions ( 5 => On enlève 5*18 publications)
 //DEBUG : permet d'avoir des messages de déboguage ( false | true)
-removeAllLikesDebugAdvanced(maxcycle = 5, DEBUG = false);
+removeLikes(maxCycles = 1, DEBUG = false);
