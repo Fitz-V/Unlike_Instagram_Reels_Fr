@@ -99,3 +99,11 @@ Le script inclut un flag DEBUG pour activer/désactiver les messages de débogag
 # L'UTILISATION DE CE SCRIPT NE SUIT PAS LES TOS D'INSTAGRAM, IL N'EST EN AUCUN CAS AFFILIE A META OU INSTAGRAM !
 # L'AUTEUR DU SCRIPT DECLINE TOUTE RESPONSABILITE EN CAS DE DOMMAGE DIRECT ET INDIRECT LIE A SON UTILISATION
 # EN UTILISANT CE SCRIPT, VOUS CONFIRMEZ QUE VOUS AVEZ COMPRIS ET ACCEPTE TOUT RISQUE LIE A SON UTILISATION
+
+
+
+# TODO
+
+	-[ ] Détection et gestion des messages dû aux tentatives de suppression de publications buggées
+	-[ ] Support d'autres langues : Anglais, Portugais, Espagnol,...
+	-[ ] Ajouter des scripts pour suppression des Commentaires et Réponses au Stories
