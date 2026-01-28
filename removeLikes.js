@@ -41,9 +41,10 @@ async function removeLikes(maxCycles = 10, DEBUG=false) {
   function clickFirstUnlike() {
     if(DEBUG) log("Scan des boutons Bloks (premier 'Je n’aime plus')...", "action");
 
-    const candidates = document.querySelectorAll(
-      '[role="button"][aria-label="Je n’aime plus"]'
-    );
+    const candidates = [...document.querySelectorAll('[role="button"][aria-label="Je n’aime plus"]')]
+      .filter(el => getComputedStyle(el).pointerEvents === 'auto');
+
+  
 
     if(DEBUG) log(`Candidats trouvés : ${candidates.length}`, "debug");
 
